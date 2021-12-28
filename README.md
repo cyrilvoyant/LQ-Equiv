@@ -14,7 +14,7 @@ Note that for install a soft update, it's no necessary to re-install the MCR fil
 
 Source codes are available to custom the software, however, it is not recommended to use a customized version during actual radiotherapy treatments. It is the user's responsibility to verify and validate the changes made. 
 
-In the event of a problem, contact the owners of the code (Daniel Julian or Cyril Voyant) via cyrilvoyant@gmail.com or julian.mpsolution@gmail.com
+In the event of a problem, contact the owners of the codes (Daniel Julian or Cyril Voyant) via cyrilvoyant@gmail.com or julian.mpsolution@gmail.com
 
 Any publication (or use) of results from simulations made with LQ-Equiv or with a customized version must mention:
 
