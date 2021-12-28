@@ -5,9 +5,9 @@ For a first installation:
   
 - Download and install on the PC, the matlab runtime component file MCR (https://fr.mathworks.com/products/compiler/matlab-runtime.html),
   
-- Download and install on the PC, the file LQL-equiv.exe available in the folder called Soft,
+- Download and install on the PC, the file LQL-equiv.exe,
   
-- Read the help file which describe the good use of the soft.
+- Read the pdf file which describes the good use of the soft.
   
 
 Note that for install a soft update, it's no necessary to re-install the MCR file.
