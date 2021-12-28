@@ -13,3 +13,7 @@ For a first installation:
 Note that for install an soft update, it's no necessary to re-install the MCR file
 
 Source codes are also available to custom the software, however, it is not recommended to use a customized version during actual radiotherapy treatments. It is the user's responsibility to verify and validate the changes made. 
+
+In the event of a problem, contact the owners of the code (Daniel Julian or Cyril Voyant) via:
+-cyrilvoyant@gmail.com
+-julian.mpsolution@gmail.com
