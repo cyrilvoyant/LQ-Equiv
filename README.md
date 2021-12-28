@@ -7,7 +7,9 @@ For a first installation:
   
 - Download and install on the PC, the file LQL-equiv.exe,
   
-- Read the pdf file which describes the good use of the soft.
+- Read the pdf file (important!) which describes the good use of the soft.
+
+- For much details read open access file https://pubmed.ncbi.nlm.nih.gov/24936319/ (and references therein)
   
 
 Note that for install a soft update, it's no necessary to re-install the MCR file.
