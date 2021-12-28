@@ -17,6 +17,7 @@ Source codes are available to custom the software, however, it is not recommende
 In the event of a problem, contact the owners of the code (Daniel Julian or Cyril Voyant) via:
 
 -cyrilvoyant@gmail.com
+
 -julian.mpsolution@gmail.com
 
 Any publication (or use) of results from simulations made with LQ-Equiv or with a customized version must mention:
