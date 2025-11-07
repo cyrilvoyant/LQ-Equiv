@@ -1,23 +1,35 @@
 # LQ-Equiv
-For a first installation:
 
-- Read the MIT licence terms, 
-  
-- Download and install on the PC, the matlab runtime component file MCR (https://fr.mathworks.com/products/compiler/matlab-runtime.html),
-  
-- Download and install on the PC, the file LQL-equiv.exe,
-  
-- Read the pdf file (important!) which describes the good use of the soft.
+Project: LQ-Equiv — documentation and tools for LQ equivalence
 
-- For much details read open access file https://pubmed.ncbi.nlm.nih.gov/24936319/ (and references therein)
-  
+Summary
+This repository provides the main documentation (LQEquiv.pdf), a Windows executable (LQL-Equiv.exe) and the source archive (codesource.zip).
 
-Note that for install a soft update, it's no necessary to re-install the MCR file.
+Top-level contents
+- `LQEquiv.pdf` — main documentation / paper
+- `LQL-Equiv.exe` — compiled Windows executable (use with caution)
+- `codesource.zip` — source archive
+- `LICENSE` — project license
 
-Source codes are available to custom the software, however, it is not recommended to use a customized version during actual radiotherapy treatments. It is the user's responsibility to verify and validate the changes made. 
+Quick view / demo
+1. View the PDF online: https://github.com/cyrilvoyant/LQ-Equiv/blob/main/LQEquiv.pdf  
+2. Recommended: enable GitHub Pages and serve the `docs/` folder to provide a simple demo page that embeds the PDF and links the binaries.
 
-In the event of a problem, contact the owners of the codes (Daniel Julian or Cyril Voyant) via cyrilvoyant@gmail.com or julian.mpsolution@gmail.com
+Security note about binaries
+- `LQL-Equiv.exe` is a compiled binary. Please verify its origin before running it. Consider providing checksums (SHA256) or building instructions in the future.
 
-Any publication (or use) of results from simulations made with LQ-Equiv or with a customized version must mention:
+Enable GitHub Pages
+- Settings → Pages → Source: Branch `main` / folder `/docs`
+- Demo will be available at `https://cyrilvoyant.github.io/LQ-Equiv/` after activation.
 
-Voyant C, Julian D, Roustit R, Biffi K, Lantieri C. Biological effects and equivalent doses in radiotherapy: A software solution. Rep Pract Oncol Radiother. 2013 Sep 29;19(1):47-55. doi: 10.1016/j.rpor.2013.08.004. PMID: 24936319; PMCID: PMC4055002.
+Contributing
+Please open issues for enhancements/bugs. See CONTRIBUTING.md for contribution guidelines.
+
+Planned improvements in this PR
+- Add `docs/index.html` demo page to preview LQEquiv.pdf and link the binary/source.
+- Add CONTRIBUTING.md with contribution guidelines.
+- Add a GitHub Actions workflow to lint Markdown/HTML.
+- Add a minimal .gitignore.
+
+License
+See LICENSE in the repository.
