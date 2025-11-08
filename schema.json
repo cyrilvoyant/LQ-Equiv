@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "SoftwareSourceCode",
+  "name": "LQ-Equiv",
+  "alternateName": "LQL-Equiv",
+  "description": "Software solution for biological effects and equivalent doses in radiotherapy based on LQ / LQL models. Public repository by Cyril Voyant et al.",
+  "url": "https://github.com/cyrilvoyant/LQ-Equiv",
+  "codeRepository": "https://github.com/cyrilvoyant/LQ-Equiv",
+  "version": "1.2c",
+  "dateReleased": "2021-12-28",
+  "programmingLanguage": "MATLAB",
+  "license": "MIT",
+  "author": {
+    "@type": "Person",
+    "name": "Cyril Voyant",
+    "url": "https://cyrilvoyant.com",
+    "identifier": "https://orcid.org/0000-0003-0242-7377"
+  },
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Daniel Julian",
+      "email": "julian.mpsolution@gmail.com"
+    }
+  ],
+  "keywords": [
+    "radiotherapy",
+    "dose-equivalence",
+    "LQ model",
+    "LQL model",
+    "biological effect",
+    "MATLAB",
+    "medical physics",
+    "software",
+    "open source"
+  ],
+  "softwareRequirements": [
+    "MATLAB Runtime (MCR)",
+    "Windows OS"
+  ],
+  "downloadUrl": "https://github.com/cyrilvoyant/LQ-Equiv/releases",
+  "sameAs": "https://doi.org/10.5281/zenodo.16739882",
+  "citation": [
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Biological effects and equivalent doses in radiotherapy: A software solution",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Cyril Voyant"
+        },
+        {
+          "@type": "Person",
+          "name": "Daniel Julian"
+        }
+      ],
+      "datePublished": "2013",
+      "journalName": "Reports of Practical Oncology and Radiotherapy",
+      "volume": "19",
+      "issue": "1",
+      "pageStart": "47",
+      "pageEnd": "55",
+      "doi": "10.1016/j.rpor.2013.08.004"
+    }
+  ]
+}
