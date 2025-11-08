@@ -1,24 +1,40 @@
-name: Lint (super-linter)
+name: Lint
 
 on:
   push:
-    branches: [ main ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ main ]
+    branches: [ "main" ]
 
 jobs:
   super-linter:
-    name: Super-Linter
+    name: GitHub Super-Linter
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Run Super-Linter
-        uses: github/super-linter@v5
+        uses: github/super-linter/slim@v6
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DEFAULT_BRANCH: main
+
+          # Branch reference
+          DEFAULT_BRANCH: "main"
+
+          # Workspace
+          DEFAULT_WORKSPACE: ${{ github.workspace }}
+
+          # Enable useful linters for documentation
           VALIDATE_MARKDOWN: true
+          VALIDATE_YAML: true
+          VALIDATE_JSON: true
           VALIDATE_HTML: true
-          DEFAULT_WORKSPACE: .
+
+          # Disable languages you don't need
+          VALIDATE_JAVASCRIPT_ES: false
+          VALIDATE_PYTHON: false
+          VALIDATE_RUBY: false
+          VALIDATE_CSS: false
+          VALIDATE_PHP: false
