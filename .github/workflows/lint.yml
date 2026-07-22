@@ -1,10 +1,11 @@
+---
 name: Lint
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [main]
   pull_request:
-    branches: [ "main" ]
+    branches: [main]
 
 jobs:
   super-linter:
@@ -19,20 +20,14 @@ jobs:
         uses: github/super-linter/slim@v6
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-          # Branch reference
-          DEFAULT_BRANCH: "main"
-
-          # Workspace
+          DEFAULT_BRANCH: main
           DEFAULT_WORKSPACE: ${{ github.workspace }}
 
-          # Enable useful linters for documentation
           VALIDATE_MARKDOWN: true
           VALIDATE_YAML: true
           VALIDATE_JSON: true
           VALIDATE_HTML: true
 
-          # Disable languages you don't need
           VALIDATE_JAVASCRIPT_ES: false
           VALIDATE_PYTHON: false
           VALIDATE_RUBY: false
