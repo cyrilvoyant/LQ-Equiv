@@ -27,9 +27,3 @@ jobs:
           VALIDATE_YAML: true
           VALIDATE_JSON: true
           VALIDATE_HTML: true
-
-          VALIDATE_JAVASCRIPT_ES: false
-          VALIDATE_PYTHON: false
-          VALIDATE_RUBY: false
-          VALIDATE_CSS: false
-          VALIDATE_PHP: false
