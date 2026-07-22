@@ -1,0 +1,63 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below. If you use it in academic work, please also cite the associated methodology paper (see preferred-citation)."
+title: "LQL-Equiv: Open-Source Software for Biologically Equivalent Dose Calculation in Radiotherapy"
+type: software
+
+authors:
+  - given-names: "Cyril"
+    family-names: "Voyant"
+    affiliation: "Universite Nice Sophia Antipolis, France"
+    orcid: "https://orcid.org/0000-0003-0242-7377"
+
+  - given-names: "Daniel"
+    family-names: "Julian"
+    affiliation: "Centre de Cancerologie du Grand Montpellier, France"
+
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.16739883"
+
+repository-code: "https://github.com/cyrilvoyant/LQ-Equiv"
+url: "https://github.com/cyrilvoyant/LQ-Equiv"
+doi: "10.5281/zenodo.16739883"
+license: "MIT"
+version: "1.2"
+date-released: "2025-08-04"
+
+abstract: >
+  LQL-Equiv computes biologically equivalent doses in external-beam
+  radiotherapy (BED, EQD2, NTCP, and radiation-induced cancer risk) using the
+  linear-quadratic-linear (LQL) model, with corrections for incomplete
+  inter-fraction repair, tumor/tissue repopulation, and treatment
+  protraction. Standalone MATLAB GUI application, used by radiation
+  oncologists, medical physicists, researchers, and educators.
+
+keywords:
+  - radiotherapy
+  - biologically effective dose
+  - linear-quadratic-linear model
+  - equivalent dose
+  - medical physics
+  - MATLAB
+
+preferred-citation:
+  type: article
+  title: "Biological effects and equivalent doses in radiotherapy: A software solution"
+  authors:
+    - given-names: "Cyril"
+      family-names: "Voyant"
+    - given-names: "Daniel"
+      family-names: "Julian"
+    - given-names: "Rudy"
+      family-names: "Roustit"
+    - given-names: "Katia"
+      family-names: "Biffi"
+    - given-names: "Celine"
+      family-names: "Lantieri"
+  journal: "Reports of Practical Oncology and Radiotherapy"
+  year: 2014
+  volume: 19
+  issue: 1
+  start: 47
+  end: 55
+  doi: "10.1016/j.rpor.2013.08.004"

@@ -3,20 +3,20 @@
   "@type": "SoftwareSourceCode",
   "name": "LQ-Equiv",
   "alternateName": "LQL-Equiv",
-  "description": "Software solution for biological effects and equivalent doses in radiotherapy based on LQ / LQL models. Public repository by Cyril Voyant et al.",
+  "description": "Open-source software for biologically equivalent dose calculation in radiotherapy (BED, EQD2, NTCP, radiation-induced cancer risk) based on the linear-quadratic-linear (LQL) model. Public repository by Cyril Voyant and Daniel Julian.",
   "url": "https://github.com/cyrilvoyant/LQ-Equiv",
   "codeRepository": "https://github.com/cyrilvoyant/LQ-Equiv",
-  "version": "1.2c",
-  "dateReleased": "2021-12-28",
+  "version": "1.2",
+  "dateReleased": "2025-08-04",
   "programmingLanguage": "MATLAB",
   "license": "MIT",
-  "author": {
-    "@type": "Person",
-    "name": "Cyril Voyant",
-    "url": "https://cyrilvoyant.com",
-    "identifier": "https://orcid.org/0000-0003-0242-7377"
-  },
-  "contributor": [
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Cyril Voyant",
+      "url": "https://cyrilvoyant.com",
+      "identifier": "https://orcid.org/0000-0003-0242-7377"
+    },
     {
       "@type": "Person",
       "name": "Daniel Julian",
@@ -39,7 +39,7 @@
     "Windows OS"
   ],
   "downloadUrl": "https://github.com/cyrilvoyant/LQ-Equiv/releases",
-  "sameAs": "https://doi.org/10.5281/zenodo.16739882",
+  "sameAs": "https://doi.org/10.5281/zenodo.16739883",
   "citation": [
     {
       "@type": "ScholarlyArticle",
