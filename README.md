@@ -12,13 +12,13 @@ Developed by Cyril Voyant and Daniel Julian, following the methodology of Astrah
 
 - **`LQEquiv.pdf`** — the associated methodology paper (Voyant, Julian, Roustit, Biffi, Lantieri, *Reports of Practical Oncology and Radiotherapy*, 2014).
 - **`LQL-Equiv.exe`** — compiled Windows standalone executable (no MATLAB license needed to run, see [Running the executable](#running-the-executable)).
-- **`codesource.zip`** — MATLAB source: `eqd_matlb.m` (GUIDE-generated GUI, all the calculation logic) and `eqd_matlb.fig` (the GUI layout, MATLAB GUIDE figure file).
+- **`codesource.zip`** — MATLAB source: `eqd_matlb.m` (GUIDE-generated GUI, all the calculation logic), `eqd_matlb.fig` (the GUI layout, MATLAB GUIDE figure file), and `heaviside.m` (step function, see note below).
 - **`CITATION.cff`**, **`schema.json`** — citation metadata (software + associated paper).
 - **`LICENSE`** — MIT.
 - **`contributing.md`**, **`cy.yml`** — contribution guidelines and a GitHub Actions Markdown/YAML/JSON/HTML linter.
 - **`index.html`** — a GitHub Pages preview page (PDF viewer + download links).
 
-**Note on `heaviside.m`:** earlier versions of `codesource.zip` bundled a copy of MathWorks' own `heaviside.m` (Symbolic Math Toolbox source, `Copyright 1993-2008 The MathWorks, Inc.`), which is not freely redistributable outside MATLAB. It has been removed from the archive. **Running `eqd_matlb.m` from source requires MATLAB's Symbolic Math Toolbox**, which provides its own `heaviside` function (used for the repopulation kick-off-time correction, see Eq. 3-4 below). The precompiled `LQL-Equiv.exe` is unaffected — it was built with the toolbox available and does not need it reinstalled by the end user.
+**Note on `heaviside.m`:** earlier versions of `codesource.zip` bundled a copy of MathWorks' own `heaviside.m` (Symbolic Math Toolbox source, `Copyright 1993-2008 The MathWorks, Inc.`), which is not freely redistributable outside MATLAB. It has been replaced with a minimal, original implementation (`Y = zeros(size(X)); Y(X > 0) = 1;`, no toolbox dependency) that is numerically identical for every input this codebase ever calls it with (the repopulation kick-off-time indicator, see Eq. 3-4 below) — no behavior change, no Symbolic Math Toolbox required to run `eqd_matlb.m` from source.
 
 ## Running the executable
 
@@ -30,7 +30,7 @@ SHA256: e95f40efc06d9c322474b1ee9c652aec263ff81358092488f6cba4d5003a52a5
 
 Per the original paper, it was built with MATLAB GUIDE (32-bit MATLAB v7.12) and the MATLAB Compiler (v4.12), and therefore requires the **MATLAB Component Runtime (MCR), 32-bit, version 7.15 or later**, installed separately before the executable will run (download from MathWorks; the exact 32-bit MCR release matching MATLAB R2011a-era compiled applications). This is not bundled in this repository. Modern 64-bit-only Windows setups may require running the 32-bit MCR under WoW64 compatibility; this has not been verified by this repository's maintainers on current Windows versions.
 
-Running the source directly in MATLAB (`codesource.zip`) avoids the MCR/32-bit constraint but requires a MATLAB license and the Symbolic Math Toolbox (see note above).
+Running the source directly in MATLAB (`codesource.zip`) avoids the MCR/32-bit constraint and requires only a base MATLAB license (no additional toolbox, see note above) plus MATLAB GUIDE support (`guide`/`openfig`, bundled with MATLAB through recent releases).
 
 ## Methodology
 
