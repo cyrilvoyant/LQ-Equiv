@@ -11,10 +11,39 @@
   "programmingLanguage": "MATLAB",
   "developmentStatus": "active",
   "applicationCategory": "Medical physics",
-  "keywords": ["radiotherapy", "biologically effective dose", "linear-quadratic-linear model", "equivalent dose", "EQD2", "NTCP", "medical physics", "radiation oncology"],
+  "keywords": [
+    "radiotherapy",
+    "biologically effective dose",
+    "linear-quadratic-linear model",
+    "equivalent dose",
+    "EQD2",
+    "NTCP",
+    "medical physics",
+    "radiation oncology"
+  ],
   "author": [
-    {"@type": "Person", "givenName": "Cyril", "familyName": "Voyant", "@id": "https://orcid.org/0000-0003-0242-7377", "url": "https://person.cyrilvoyant.com", "affiliation": {"@type": "Organization", "name": "Mines Paris - PSL, Centre Observation, Impacts, Energie (O.I.E.), Sophia Antipolis, France"}},
-    {"@type": "Person", "givenName": "Daniel", "familyName": "Julian", "affiliation": {"@type": "Organization", "name": "Centre de Cancerologie du Grand Montpellier, France"}}
+    {
+      "@type": "Person",
+      "givenName": "Cyril",
+      "familyName": "Voyant",
+      "@id": "https://orcid.org/0000-0003-0242-7377",
+      "url": "https://person.cyrilvoyant.com",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Mines Paris - PSL, Centre Observation, Impacts, Energie (O.I.E.), Sophia Antipolis, France",
+        "@id": "https://ror.org/04y8cs423",
+        "identifier": "https://ror.org/04y8cs423"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Daniel",
+      "familyName": "Julian",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Centre de Cancerologie du Grand Montpellier, France"
+      }
+    }
   ],
   "referencePublication": {
     "@type": "ScholarlyArticle",
