@@ -1,0 +1,24 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "name": "LQL-Equiv: Open-Source Software for Biologically Equivalent Dose Calculation in Radiotherapy",
+  "description": "LQL-Equiv computes biologically equivalent doses in external-beam radiotherapy (BED, EQD2, NTCP by the Lyman model, and radiation-induced cancer risk by the UNSCEAR model) using the linear-quadratic-linear model, with corrections for incomplete inter-fraction repair, tumor and tissue repopulation, and treatment protraction. Standalone MATLAB GUI application used by radiation oncologists, medical physicists, researchers and educators.",
+  "version": "1.2",
+  "dateModified": "2025-08-04",
+  "license": "https://spdx.org/licenses/MIT",
+  "codeRepository": "https://github.com/cyrilvoyant/LQ-Equiv",
+  "identifier": "https://doi.org/10.5281/zenodo.16739883",
+  "programmingLanguage": "MATLAB",
+  "developmentStatus": "active",
+  "applicationCategory": "Medical physics",
+  "keywords": ["radiotherapy", "biologically effective dose", "linear-quadratic-linear model", "equivalent dose", "EQD2", "NTCP", "medical physics", "radiation oncology"],
+  "author": [
+    {"@type": "Person", "givenName": "Cyril", "familyName": "Voyant", "@id": "https://orcid.org/0000-0003-0242-7377", "url": "https://person.cyrilvoyant.com", "affiliation": {"@type": "Organization", "name": "Mines Paris - PSL, Centre Observation, Impacts, Energie (O.I.E.), Sophia Antipolis, France"}},
+    {"@type": "Person", "givenName": "Daniel", "familyName": "Julian", "affiliation": {"@type": "Organization", "name": "Centre de Cancerologie du Grand Montpellier, France"}}
+  ],
+  "referencePublication": {
+    "@type": "ScholarlyArticle",
+    "name": "Biological effects and equivalent doses in radiotherapy: A software solution",
+    "datePublished": "2014"
+  }
+}
