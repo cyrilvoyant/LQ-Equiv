@@ -1,6 +1,7 @@
 # LQL-Equiv
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16739883.svg)](https://doi.org/10.5281/zenodo.16739883)
+[![SWH](https://archive.softwareheritage.org/badge/swh:1:dir:3b24926dd6a7289c8c4804bf344b87f6de666767/)](https://archive.softwareheritage.org/swh:1:dir:3b24926dd6a7289c8c4804bf344b87f6de666767;origin=https://github.com/cyrilvoyant/LQ-Equiv;visit=swh:1:snp:a70f1582696256cbd032269d19b9aec81cdb8f0b;anchor=swh:1:rev:a87923ca09f0a3349c60b50da386744414c23cd2;path=/)
 Open-source MATLAB software for **biologically equivalent dose calculation in radiotherapy**, based on the linear-quadratic-linear (LQL) model. It computes the biological equivalent dose (BED), the dose equivalent to a 2 Gy/fraction reference schedule (EQD2), the normal tissue complication probability (NTCP, Lyman model), and the estimated radiation-induced cancer risk (UNSCEAR model) — with corrections for incomplete inter-fraction repair, tissue/tumor repopulation, and treatment protraction (days off).
 
 Developed by Cyril Voyant and Daniel Julian, following the methodology of Astrahan (LQL model), Dale (repopulation), and Thames (incomplete repair). See [Citation](#citation) for the associated peer-reviewed paper.
